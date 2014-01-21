@@ -19,5 +19,5 @@ public class LenguajesGonzalezAlejandro {
         // TODO code application logic here
     System.out.println("Bienvenidos al curso de Lenguajes!!");
     }
-    Hola
+   
 }

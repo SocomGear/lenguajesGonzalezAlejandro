@@ -1,0 +1,6 @@
+El tipo de dato CHAR es del tipo primitivo, corresponde a los caracteres 'C', 
+su tamaño es de 16 bits desde '\u0000' a '\uffff' .Esto es desde 0 a 65535
+
+Y corresponde al tamaño de short (16 bits)......
+
+El tamaño de los tipos de datos no depende de la implementación de Java. Siempre son los mismos.

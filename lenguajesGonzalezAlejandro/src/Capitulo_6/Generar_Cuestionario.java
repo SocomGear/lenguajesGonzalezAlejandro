@@ -14,7 +14,24 @@ import java.util.*;
  */
 public class Generar_Cuestionario {
     public ArrayList<Pregunta> obtenerCuestionario(){
-        ArrayList<Pregunta> cuestionario= new ArrayList<Pregunta>();
+        
+                Opcion op11=new Opcion("El Salvador",false);
+                Opcion op21=new Opcion("Perú",false);
+                Opcion op31=new Opcion("México",true);
+                Opcion op41=new Opcion("Finlandia",false);
+                
+                ArrayList<Opcion> opciones1=new ArrayList<Opcion>();
+                
+                opciones1.add(op11);
+                opciones1.add(op21);
+                opciones1.add(op31);
+                opciones1.add(op41);
+                
+                Pregunta p1=new Pregunta(1,"1.-Cual es el pais con el mejor sistema educativo?",opciones1);
+                
+                ArrayList<Pregunta> cuestionario=new ArrayList<Pregunta>();
+                cuestionario.add(p1);
+                
                 
                 return cuestionario; 
                        

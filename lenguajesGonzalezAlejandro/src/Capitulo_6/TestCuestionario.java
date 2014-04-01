@@ -17,7 +17,7 @@ public class TestCuestionario {
      for(Pregunta pregunta: Generar_Cuestionario.obtenerCuestionario()){
          System.out.println(pregunta.getTitulo());
          for(Opcion opcion: pregunta.getOpciones()){
-             System.out.println(opcion.getTitulo()+ "valor" +opcion.isValor());
+             System.out.println(opcion.getTitulo()+ " valor " +opcion.isValor());
          }
      }   
     }

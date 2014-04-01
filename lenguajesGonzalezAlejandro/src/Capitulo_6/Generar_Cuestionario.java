@@ -13,12 +13,12 @@ import java.util.*;
  * @author T107
  */
 public class Generar_Cuestionario {
-    public ArrayList<Pregunta> obtenerCuestionario(){
+    public static ArrayList<Pregunta> obtenerCuestionario(){
         
                 Opcion op11=new Opcion("El Salvador",false);
                 Opcion op21=new Opcion("Perú",false);
-                Opcion op31=new Opcion("México",true);
-                Opcion op41=new Opcion("Finlandia",false);
+                Opcion op31=new Opcion("México",false);
+                Opcion op41=new Opcion("Finlandia",true);
                 
                 ArrayList<Opcion> opciones1=new ArrayList<Opcion>();
                 
